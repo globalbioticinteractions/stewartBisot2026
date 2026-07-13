@@ -200,7 +200,8 @@
         "titles" : "HyphalLength_m_cm3_final",
         "datatype" : "string"
       }, {
-        "name" : "http://rs.tdwg.org/dwc/terms/month",
+        "_name" : "http://rs.tdwg.org/dwc/terms/month",
+        "name" : "month",
         "titles" : "month",
         "datatype" : "string"
       }, {
