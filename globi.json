@@ -1,0 +1,436 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "Dryad_StewartBisot_etal/Dryad_StewartBisot_Hyphae/Databases/Hyphae/hyphal_density_full_metadata.csv",
+    "dcterms:bibliographicCitation" : "Justin D. Stewart et al. 2026. Global density and biomass of arbuscular mycorrhizal fungal networks. Science 392, 1171-1176 (2026). DOI:10.1126/science.adu4373",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "EntryID",
+        "titles" : "EntryID",
+        "datatype" : "string"
+      }, {
+        "name" : "Reader",
+        "titles" : "Reader",
+        "datatype" : "string"
+      }, {
+        "name" : "temporal_yes_no",
+        "titles" : "temporal_yes_no",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/year",
+        "titles" : "year_collected",
+        "datatype" : "string"
+      }, {
+        "name" : "soil_core_volume_cm3",
+        "titles" : "soil_core_volume_cm3",
+        "datatype" : "string"
+      }, {
+        "name" : "pot_soil_volume..cm3.",
+        "titles" : "pot_soil_volume..cm3.",
+        "datatype" : "string"
+      }, {
+        "name" : "pot_replication_number",
+        "titles" : "pot_replication_number",
+        "datatype" : "string"
+      }, {
+        "name" : "pot_artificial_natural_light",
+        "titles" : "pot_artificial_natural_light",
+        "datatype" : "string"
+      }, {
+        "name" : "Search_Language",
+        "titles" : "Search_Language",
+        "datatype" : "string"
+      }, {
+        "name" : "author",
+        "titles" : "Authors",
+        "datatype" : "string"
+      }, {
+        "name" : "title",
+        "titles" : "Title",
+        "datatype" : "string"
+      }, {
+        "name" : "year",
+        "titles" : "Year",
+        "datatype" : "string"
+      }, {
+        "name" : "Source.title",
+        "titles" : "Source.title",
+        "datatype" : "string"
+      }, {
+        "name" : "volume",
+        "titles" : "Volume",
+        "datatype" : "string"
+      }, {
+        "name" : "issue",
+        "titles" : "Issue",
+        "datatype" : "string"
+      }, {
+        "name" : "Page.start",
+        "titles" : "Page.start",
+        "datatype" : "string"
+      }, {
+        "name" : "Page.end",
+        "titles" : "Page.end",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "DOI",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceUrl",
+        "titles" : "Link",
+        "datatype" : "string"
+      }, {
+        "name" : "Author.Keywords",
+        "titles" : "Author.Keywords",
+        "datatype" : "string"
+      }, {
+        "name" : "Document.Type",
+        "titles" : "Document.Type",
+        "datatype" : "string"
+      }, {
+        "name" : "Source",
+        "titles" : "Source",
+        "datatype" : "string"
+      }, {
+        "name" : "search",
+        "titles" : "search",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "plant_genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithetName",
+        "titles" : "plant_spp",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "binomial_acc_name",
+        "datatype" : "string"
+      }, {
+        "name" : "plant_cultivar",
+        "titles" : "plant_cultivar",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "symbiont_functional_type",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "symbiont_genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecificEpithetName",
+        "titles" : "symbiont_spp",
+        "datatype" : "string"
+      }, {
+        "name" : "basisOfMethod",
+        "titles" : "method",
+        "datatype" : "string"
+      }, {
+        "name" : "pot_field",
+        "titles" : "pot_field",
+        "datatype" : "string"
+      }, {
+        "name" : "soil_used",
+        "titles" : "soil_used",
+        "datatype" : "string"
+      }, {
+        "name" : "temp_C",
+        "titles" : "temp_C",
+        "datatype" : "string"
+      }, {
+        "name" : "light_umol_m2_s",
+        "titles" : "light_umol_m2_s",
+        "datatype" : "string"
+      }, {
+        "name" : "sample_size",
+        "titles" : "sample_size",
+        "datatype" : "string"
+      }, {
+        "name" : "Title.1",
+        "titles" : "Title.1",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "colonization_perc",
+        "titles" : "colonization_perc",
+        "datatype" : "string"
+      }, {
+        "name" : "hypha_m_cm3",
+        "titles" : "hypha_m_cm3",
+        "datatype" : "string"
+      }, {
+        "name" : "hypha_cm_g",
+        "titles" : "hypha_cm_g",
+        "datatype" : "string"
+      }, {
+        "name" : "bulk_density_g.cm3_reported",
+        "titles" : "bulk_density_g.cm3_reported",
+        "datatype" : "string"
+      }, {
+        "name" : "soil_depth_depth_cm",
+        "titles" : "soil_depth_depth_cm",
+        "datatype" : "string"
+      }, {
+        "name" : "Notes",
+        "titles" : "Notes",
+        "datatype" : "string"
+      }, {
+        "name" : "HyphalLength_m_cm3_final",
+        "titles" : "HyphalLength_m_cm3_final",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/month",
+        "titles" : "month",
+        "datatype" : "string"
+      }, {
+        "name" : "hemisphere",
+        "titles" : "hemisphere",
+        "datatype" : "string"
+      }, {
+        "name" : "season",
+        "titles" : "season",
+        "datatype" : "string"
+      }, {
+        "name" : "soil_core_volume_reported",
+        "titles" : "soil_core_volume_reported",
+        "datatype" : "string"
+      }, {
+        "name" : "pot_soil_volume_cm3",
+        "titles" : "pot_soil_volume_cm3",
+        "datatype" : "string"
+      }, {
+        "name" : "pot_soil_volume_reported",
+        "titles" : "pot_soil_volume_reported",
+        "datatype" : "string"
+      }, {
+        "name" : "cultivated_wild_Pironon2023",
+        "titles" : "cultivated_wild_Pironon2023",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_Form_Kew",
+        "titles" : "Growth_Form_Kew",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_Form_Secondary",
+        "titles" : "Growth_Form_Secondary",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_Form_SecondarySource",
+        "titles" : "Growth_Form_SecondarySource",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_Form_Final",
+        "titles" : "Growth_Form_Final",
+        "datatype" : "string"
+      }, {
+        "name" : "GrowthFormKnown",
+        "titles" : "GrowthFormKnown",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_Form_FinalGrass",
+        "titles" : "Growth_Form_FinalGrass",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_Form_FinalHerb",
+        "titles" : "Growth_Form_FinalHerb",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_Form_FinalShrub",
+        "titles" : "Growth_Form_FinalShrub",
+        "datatype" : "string"
+      }, {
+        "name" : "Growth_Form_FinalTree",
+        "titles" : "Growth_Form_FinalTree",
+        "datatype" : "string"
+      }, {
+        "name" : "AMF_richness",
+        "titles" : "AMF_richness",
+        "datatype" : "string"
+      }, {
+        "name" : "CGIAR_PET",
+        "titles" : "CGIAR_PET",
+        "datatype" : "string"
+      }, {
+        "name" : "CHELSA_BIO_Annual_Mean_Temperature",
+        "titles" : "CHELSA_BIO_Annual_Mean_Temperature",
+        "datatype" : "string"
+      }, {
+        "name" : "CHELSA_BIO_Annual_Precipitation",
+        "titles" : "CHELSA_BIO_Annual_Precipitation",
+        "datatype" : "string"
+      }, {
+        "name" : "CHELSA_BIO_Max_Temperature_of_Warmest_Month",
+        "titles" : "CHELSA_BIO_Max_Temperature_of_Warmest_Month",
+        "datatype" : "string"
+      }, {
+        "name" : "CHELSA_BIO_Precipitation_Seasonality",
+        "titles" : "CHELSA_BIO_Precipitation_Seasonality",
+        "datatype" : "string"
+      }, {
+        "name" : "EarthEnvTexture_CoOfVar_EVI",
+        "titles" : "EarthEnvTexture_CoOfVar_EVI",
+        "datatype" : "string"
+      }, {
+        "name" : "EarthEnvTexture_Correlation_EVI",
+        "titles" : "EarthEnvTexture_Correlation_EVI",
+        "datatype" : "string"
+      }, {
+        "name" : "EarthEnvTexture_Homogeneity_EVI",
+        "titles" : "EarthEnvTexture_Homogeneity_EVI",
+        "datatype" : "string"
+      }, {
+        "name" : "EarthEnvTopoMed_AspectCosine",
+        "titles" : "EarthEnvTopoMed_AspectCosine",
+        "datatype" : "string"
+      }, {
+        "name" : "EarthEnvTopoMed_AspectSine",
+        "titles" : "EarthEnvTopoMed_AspectSine",
+        "datatype" : "string"
+      }, {
+        "name" : "EarthEnvTopoMed_Elevation",
+        "titles" : "EarthEnvTopoMed_Elevation",
+        "datatype" : "string"
+      }, {
+        "name" : "EarthEnvTopoMed_Slope",
+        "titles" : "EarthEnvTopoMed_Slope",
+        "datatype" : "string"
+      }, {
+        "name" : "EarthEnvTopoMed_TopoPositionIndex",
+        "titles" : "EarthEnvTopoMed_TopoPositionIndex",
+        "datatype" : "string"
+      }, {
+        "name" : "EsaCci_BurntAreasProbability",
+        "titles" : "EsaCci_BurntAreasProbability",
+        "datatype" : "string"
+      }, {
+        "name" : "GHS_Population_Density",
+        "titles" : "GHS_Population_Density",
+        "datatype" : "string"
+      }, {
+        "name" : "HumanModification",
+        "titles" : "HumanModification",
+        "datatype" : "string"
+      }, {
+        "name" : "MODIS_NPP",
+        "titles" : "MODIS_NPP",
+        "datatype" : "string"
+      }, {
+        "name" : "SG_Depth_to_bedrock",
+        "titles" : "SG_Depth_to_bedrock",
+        "datatype" : "string"
+      }, {
+        "name" : "SG_SOC_Content_005cm",
+        "titles" : "SG_SOC_Content_005cm",
+        "datatype" : "string"
+      }, {
+        "name" : "SG_Soil_pH_H2O_005cm",
+        "titles" : "SG_Soil_pH_H2O_005cm",
+        "datatype" : "string"
+      }, {
+        "name" : "biomes",
+        "titles" : "biomes",
+        "datatype" : "string"
+      }, {
+        "name" : "crops_ESA",
+        "titles" : "crops_ESA",
+        "datatype" : "string"
+      }, {
+        "name" : "cultivated_grassland_2010_2022",
+        "titles" : "cultivated_grassland_2010_2022",
+        "datatype" : "string"
+      }, {
+        "name" : "earthEnvLandcover-class-barren",
+        "titles" : "earthEnvLandcover-class-barren",
+        "datatype" : "string"
+      }, {
+        "name" : "earthEnvLandcover-class-cultivated-managed-vegetation",
+        "titles" : "earthEnvLandcover-class-cultivated-managed-vegetation",
+        "datatype" : "string"
+      }, {
+        "name" : "earthEnvLandcover-class-evergreen-broadleaf-trees",
+        "titles" : "earthEnvLandcover-class-evergreen-broadleaf-trees",
+        "datatype" : "string"
+      }, {
+        "name" : "earthEnvLandcover-class-evergreen-decid-needleleaf-trees",
+        "titles" : "earthEnvLandcover-class-evergreen-decid-needleleaf-trees",
+        "datatype" : "string"
+      }, {
+        "name" : "earthEnvLandcover-class-herbaceous-vegetation",
+        "titles" : "earthEnvLandcover-class-herbaceous-vegetation",
+        "datatype" : "string"
+      }, {
+        "name" : "earthEnvLandcover-class-mixed-other-trees",
+        "titles" : "earthEnvLandcover-class-mixed-other-trees",
+        "datatype" : "string"
+      }, {
+        "name" : "earthEnvLandcover-class-regularly-flooded-vegetation",
+        "titles" : "earthEnvLandcover-class-regularly-flooded-vegetation",
+        "datatype" : "string"
+      }, {
+        "name" : "earthEnvLandcover-class-shrubs",
+        "titles" : "earthEnvLandcover-class-shrubs",
+        "datatype" : "string"
+      }, {
+        "name" : "grassland_class_2001",
+        "titles" : "grassland_class_2001",
+        "datatype" : "string"
+      }, {
+        "name" : "grassland_class_2010_2022",
+        "titles" : "grassland_class_2010_2022",
+        "datatype" : "string"
+      }, {
+        "name" : "grassland_class_2021",
+        "titles" : "grassland_class_2021",
+        "datatype" : "string"
+      }, {
+        "name" : "harmonized-aboveground-biomass",
+        "titles" : "harmonized-aboveground-biomass",
+        "datatype" : "string"
+      }, {
+        "name" : "harmonized-belowground-biomass",
+        "titles" : "harmonized-belowground-biomass",
+        "datatype" : "string"
+      }, {
+        "name" : "isric-soil-proportion-of-sand",
+        "titles" : "isric-soil-proportion-of-sand",
+        "datatype" : "string"
+      }, {
+        "name" : "myco_veg_cover",
+        "titles" : "myco_veg_cover",
+        "datatype" : "string"
+      }, {
+        "name" : "nitrogen",
+        "titles" : "nitrogen",
+        "datatype" : "string"
+      }, {
+        "name" : "phosphorus",
+        "titles" : "phosphorus",
+        "datatype" : "string"
+      }, {
+        "name" : "sampling_intensity",
+        "titles" : "sampling_intensity",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,8 @@
+.elton/
+add_travis_artifact_upload_keys.sh
+datasets/
+data/f0/59/f05910587a31550777a78102b6d5f2d7
+Dryad_StewartBisot_etal.zip
+Dryad_StewartBisot_etal/**/Rasters/*
+Dryad_StewartBisot_etal/**/Shapefile/*
+
